@@ -1,0 +1,65 @@
+/* FOOTER */
+
+ul{
+  list-style-type: none;
+  padding: 0;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #2385E0;
+    font-size: 18px;
+    color: white;
+
+}
+
+/* Redes */
+.links {
+}
+.redes {
+}
+.redes__titulo {
+}
+.redes__twitter {
+}
+.redes__pinterest {
+}
+.redes__facebook {
+}
+
+/* Acerca */
+.acerca {
+}
+.de {
+}
+.de__titulo {
+}
+.de__garantia {
+}
+.de__inversores {
+}
+.de__historia {
+}
+
+/* Terminos */
+.terminos {
+}
+.terminos__titulo {
+}
+.terminos__cookies {
+}
+.terminos__privacidad {
+}
+.terminos__condiciones {
+}
+.terminos__legales {
+}
+
+/* Copyright */
+.copyright {
+}
