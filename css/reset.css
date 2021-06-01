@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 180vh;
+}
+
+a{
+    text-decoration: none;
+    font-family: var(--font-family);
+
+}
+
+footer{
+    background-color: var(--colorFooter);
+}
+
+ul{
+    color: var(--colorultexto);
+}
+
+header{
+}
+
+nav{
+    text-align: center;
+
+}

@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url(./fonts/opensans-regular.woff2) format("woff2");
+    src: url(./fonts/opensans-regular.woff) format("woff");
+}
+
+
+
+/* TIPOGRAFIA */
+
+:root{
+    --parrafo: 20px;
+}
+
+p{
+    font-size: var(--parrafo);
+
+}
