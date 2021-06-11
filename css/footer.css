@@ -1,29 +1,70 @@
-/* FOOTER */
+
+@font-face {
+    font-family: "open sans";
+    src: url(./fonts/opensans-regular.woff2) format ("woff2"),
+    src: url(./fonts/opensans-regular.woff) format ("woff");
+}
+
+/* Soluciona problemas con los paddings */
+*{
+    box-sizing: border-box;
+}
+/* Soluciona problemas con los paddings */
+
+html{
+    font-family: "open sans", sans-serif;
+    font-size: 18px;
+    color: white;
+}
 
 ul{
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
+  
+  }
+  
+  a{
+      color: white;
+      text-decoration: none;
+  }
 
+  h5, ul{
+    margin-top: 0;
 }
 
-a{
-    color: white;
-    text-decoration: none;
+h6{
+    margin-bottom: 0;
 }
+
+
+
+/* FOOTER */
+
 
 footer{
     background-color: #2385E0;
     font-size: 18px;
-    color: white;
+    padding: 20px;
+
+}
+
+.links {
+    display: flex;
+}
+
+
+h5, h6{
+    font-size: 18px;
 
 }
 
 /* Redes */
-.links {
-}
 .redes {
+    flex-grow: 0.2;
 }
 .redes__titulo {
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
 }
 .redes__twitter {
 }
@@ -33,23 +74,28 @@ footer{
 }
 
 /* Acerca */
-.acerca {
+.acercade {
+    flex-grow: 2;
 }
-.de {
+
+.acercade__titulo {
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
 }
-.de__titulo {
+.acercade__garantia {
 }
-.de__garantia {
+.acercade__inversores {
 }
-.de__inversores {
-}
-.de__historia {
+.acercade__historia {
 }
 
 /* Terminos */
 .terminos {
+    flex-grow: 1;
 }
 .terminos__titulo {
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
 }
 .terminos__cookies {
 }
@@ -61,5 +107,7 @@ footer{
 }
 
 /* Copyright */
-.copyright {
+.copyright{
+    text-align: center;
+
 }
