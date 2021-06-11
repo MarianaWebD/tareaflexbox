@@ -1,10 +1,30 @@
-/*RESET*/
-@import url(./normalize.css);
-@import url(./reset.css);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
-/*VARIABLES, COLORES Y TIPOGRAFIA*/
-@import url(./tipografia.css);
-@import url(./colores.css);
+}
 
-/* ESTRUCTURAS */
-@import url(./layout.css);
+nav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: midnightblue;
+    font-family: sans-serif;
+}
+
+
+a:active{
+    color: rgb(228, 9, 56);
+}
+
+/*a:visited{
+    color: rgb(228, 9, 27);
+}*/
