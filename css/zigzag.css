@@ -1,0 +1,47 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body{
+}
+
+.imgIzquierda {
+
+}
+.imgIzquierda__construcción {
+    padding: 10px;
+    display: flex;
+    margin: 0%;
+
+
+}
+.imgIzquierda__construcción__foto {
+    width: 50%;
+    
+}
+.imgIzquierda__texto {
+    padding: 20px;
+}
+
+.imgIzquierda__construcción__texto_parrafo {
+    
+    
+}
+.imgDerecha {
+}
+.imgDerecha__edificios {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0%;
+}
+.imgDerecha__edificios__foto {
+    width: 50%;
+
+}
+.imgDerecha__texto {
+    padding: 20px;
+}
+.imgDerecha__edificios__texto_parrafo {
+}
